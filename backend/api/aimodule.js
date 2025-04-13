@@ -4,7 +4,7 @@ const { OpenAI } = require("openai");
 const router = express.Router();
 
 const baseURL = "https://openrouter.ai/api/v1";
-const apiKey = "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";
+const apiKey = "my-private-key-was-removed-from-public-repo";
 
 const api = new OpenAI({
   apiKey,
